@@ -1,6 +1,6 @@
 # Django Widget Override Test Case
 
-The process of overriding the Django form widget HTML doesn't match the official documentation. This test case pares down the problem to the barest minimum example.
+The process of overriding the Django form widget HTML doesn't match the official documentation. Couldn't figure it out even after a brief look at the source code. This test case pares down the problem to the barest minimum example.
 
 # How to Run
 
