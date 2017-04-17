@@ -1,6 +1,13 @@
-# Django Widget Override Test Case
+# Resolved: Django Widget Override Test Case
 
 The process of overriding the Django form widget HTML doesn't match the official documentation. Couldn't figure it out even after a brief look at the source code. This test case pares down the problem to the barest minimum example.
+
+Resolution:
+
+``` python
+# settings.py
+FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'
+```
 
 # How to Run
 
@@ -19,3 +26,7 @@ There should not be any form fields displayed. However, form field is displayed.
 Reference Ticket:
 
 * https://code.djangoproject.com/ticket/28088
+
+# Thanks!
+
+@fapolloner
